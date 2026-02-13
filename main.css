@@ -187,6 +187,60 @@ main .section-2 .right .div-1 {
   align-items: center;
   gap: 20px;
 }
+main .section-3 {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+main .section-3 .left {
+  width: 50%;
+}
+main .section-3 .left .p {
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
+  font-weight: 700;
+  width: 90%;
+}
+main .section-3 .left .input {
+  padding: 15px;
+  width: 360px;
+  border: 2px solid grey;
+  border-radius: 10px;
+}
+main .section-3 .left .input::-moz-placeholder {
+  font-size: 16px;
+  color: #BDBDBD;
+}
+main .section-3 .left .input::placeholder {
+  font-size: 16px;
+  color: #BDBDBD;
+}
+main .section-3 .left .button {
+  font-size: 16px;
+  font-weight: 700;
+  color: #F2F2F2;
+  background-color: #2642F8;
+  width: 155px;
+  border-radius: 50px;
+  padding: 15px;
+  border: none;
+}
+main .section-3 .left .flex-1 {
+  display: flex;
+  gap: 30px;
+}
+main .section-3 .right {
+  width: 50%;
+}
+main .section-3 .right .p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #828282;
+  font-weight: 500;
+  width: 70%;
+  margin: auto;
+}
 
 .width100 {
   width: 100%;
