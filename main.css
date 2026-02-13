@@ -1,1 +1,59 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  font-family: sans-serif;
+}
+
+.header {
+  width: 85%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .h-part-1 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header .h-part-2 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.header .p-big {
+  font-size: 28px;
+  color: #2642F8;
+  font-weight: 700;
+}
+.header .p-normal {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+.header button {
+  font-size: 17px;
+  color: #2642F8;
+  font-weight: 700;
+  padding: 10px 45px;
+  border-radius: 50px;
+  text-align: center;
+  border: 1px solid #2642F8;
+  background-color: transparent;
+}
+.header select {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  border: none;
+}
+
+.size {
+  width: 70px;
+  height: 70px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}/*# sourceMappingURL=main.css.map */
