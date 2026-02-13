@@ -46,6 +46,61 @@
     }
 }
 
+main{
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    .section-1{
+        display: flex;
+        gap: 100px;
+        align-items: center;
+        .p-big{
+            font-size: 44px;
+            font-weight: 900;
+            color: #000000;
+            line-height: 50px;
+        }
+        .p-small{
+            font-size: 14px;
+            font-weight: 900;
+            color: #000000;
+            line-height: 0px;
+        }
+        .p-normal{
+            font-size: 18px;
+            font-weight: 500;
+            color: #000000;
+            width: 90%;
+            line-height: 25px;
+        }
+        .div{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .p{
+            font-size: 14px;
+            color: #BDBDBD;
+            font-weight: 500;
+            align-self: center;
+        }
+        .divv{
+            display: flex;
+            gap: 40px;
+            align-items: center;
+        }
+        .p-1{
+            font-size: 16px;
+            font-weight: 900;
+            line-height: 10%;
+            color: #000000;
+        }
+    }
+}
+
 
 .size{
     width: 70px;
